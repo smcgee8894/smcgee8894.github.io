@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Sean McGee</title>
+  <title>Sean McGee | Portfolio</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Sean McGee">
@@ -45,10 +45,9 @@ Sean McGee, 2021
     <!--<h2 id="contact" style="margin-bottom: 0px; padding-bottom: 0px;">Contact</h2>-->
     <div class="contact">
       <div class="contact_item"><a href="https://www.linkedin.com/in/sean-mcgee-55b00026/" target="_blank">LinkedIn Profile</a></div>
-      <div class="contact_item"><p><a href="https://github.com/smcgee8894" target="_blank">Github Profile</a></p></div>
-      <div class="contact_item"><p>Resume: <a href="files/LaplaceTransformPairs.pdf" target="_blank">Download</a></p></div>
-      <div class="contact_item"><p>Email: abc123@xyz.com</p></div>
-      <div class="contact_item"><p>Phone: (123) 456-7890</p></div>
+      <div class="contact_item"><p><a href="https://github.com/smcgee8894" target="_blank">GitHub Profile</a></p></div>
+      <div class="contact_item"><p><a href="files/LaplaceTransformPairs.pdf" target="_blank">View Résumé</a></p></div>
+      <div class="contact_item"><p>Email: <a href="mailto: smcgee8894@gmail.com" target="_blank">smcgee8894</a><a href="mailto: smcgee8894@gmail.com" target="_blank">@gmail.com</a></p></div>
     </div>
   </div>
 </div>
@@ -64,7 +63,7 @@ Sean McGee, 2021
     in MATLAB, C/C++, and Python. I also have experience working with control systems in S- and Z-domains, including lead and lag compensators, PID controllers, state space
     representation, and linear quadratic regulators/estimators.</p>
     <p class="subsub">My determination, analytical mindset, and passion for learning make will make me a valuable addition to any team. If you have any questions for me, please
-    feel free to reach out to me by email or via my LinkedIn profile. Thank you very much for your time.</p>
+    feel free to reach out to me by <a href="mailto: smcgee8894@gmail.com" target="_blank">email</a> or via my <a href="https://www.linkedin.com/in/sean-mcgee-55b00026/" target="_blank">LinkedIn profile</a>. Thank you very much for your time.</p>
   </div>
   <div class="flex-item-right30">
     <img src="images/NAU_Campus.jpg" alt="MATLAB Plot" style="margin-left: 4%; width: 90%;">
@@ -144,7 +143,7 @@ Sean McGee, 2021
   <div class="flex-container">
     <div class="flex-item-left70">
       <h3>Senior Capstone Project</h3>
-      <p class="subsub"><b>Project objectives: </b>Design a fixture to interface between a spherical air bearing and a satellite underoing testing. The fixture must allow the combined center of
+      <p class="subsub"><b>Project objectives: </b>Design a fixture to interface between a spherical air bearing and a satellite undergoing testing. The fixture must allow the combined center of
       mass (COM) of the fixture, the bearing, and the satellite to be precisely colocated with the bearing's center of rotation (COR), including satellites of various form factors.</p>
       <p class="subsub"><b>Final design: </b>Our fixture uses satellite mounting brackets affixed to a system of movable carriages to change the satellite's position relative to the
       air bearing. This permits the satellite's COM to be aligned with the bearing COR along two axes, while the repositioning of two weights allows alignment along the vertical axis.
@@ -165,13 +164,13 @@ Sean McGee, 2021
     <div class="flex-item-right30">
       <img src="images/Capstone_img1.jpg" alt="Capstone Render" style="margin-left: 19%; margin-top: 25px; width: 60%;">
       <p class="caption">Rendering of the SOLIDWORKS assembly created for the fixture. Pocketing on the bottom face of the base plate allows the part to be lightweight yet stiff to resist deflection.
-        Lead screws and linear rods permit translation in two axes with minimal friction.</p>
+        Lead screws and linear rods permit translation with minimal friction.</p>
     </div>
   </div>
 
   <div class="flex-container">
     <div class="flex-item-left70">
-      <h3>Heat Transfer Project</h3>
+      <h3>Heat Transfer Project</h3><div class="project_link"><a href="https://github.com/smcgee8894/ME450_2DHeat">GitHub repository</a></div>
       <p class="subsub"><b>Project objectives: </b>Calculate temperature distribution across 2D plate at steady state given prescribed boundary conditions, using MATLAB to compute results by numerical methods.</p>
       <p class="subsub"><b>Final design: </b>The MATLAB script created for this project assigns a "type" to each finite element depending on the boundary conditions present on that element.
       It then populates a coefficient matrix according to each element's type and solves the resulting system of equations for the temperature of each node.</p>
@@ -200,17 +199,17 @@ Sean McGee, 2021
 
 <div class="flex-container">
   <div class="flex-item-left70">
-    <h3>Experimental Methods Project</h3>
-    <p class="subsub">The goal of this project was to design and carry out a scientific experiment using the equipment available in NAU's thermal fluids laboratory.
-      My proposal involved measuring the temperature profile of a heat sink placed on a hot plate. Twelve K-type thermocouples were calibrated and installed along various
-      surfaces of the heat sink which was then heated and allowed to reach steady-state conditions, whereupon temperature data was captured and stored. Experimental results
-      were then compared to results from MATLAB and Ansys simulations. Both simulations delivered results within ±5°C of the experimental results.</p>
-    <p class="subsub"></p>
+    <h3>Experimental Methods Project</h3><div class="project_link"><a href="https://github.com/smcgee8894/ME495_HeatSink">GitHub repository</a></div>
+    <p class="subsub"><b>Project objectives: </b>Design and carry out a scientific experiment using the equipment available in NAU's thermal fluids laboratory.</p>
+    <p class="subsub"><b>Selected design: </b>My proposal involved measuring the temperature profile of a heat sink placed on a hot plate. Twelve K-type thermocouples were calibrated
+      and installed along various surfaces of the heat sink which was then heated and allowed to reach steady-state conditions, whereupon temperature data was captured and stored.
+      Experimental results were then compared to results from MATLAB and ANSYS simulations.</p>
+    <p class="subsub"><b>Project outcomes: </b>The experiment was conducted successfully and yielded reliable data. Simulation results were within ±5°C of experimental results.</p>
     <ul class="subsubsubsub">
       <li>Designed experimental procedures to minimize impact of external factors such as forced convection</li>
-      <li>Collected data using LabVIEW and the NI-9213 temperature input module</li>
+      <li>Collected thermocouple readings using LabVIEW and the NI-9213 temperature input module</li>
       <li>Analyzed uncertainty of results to establish confidence interval</li>
-      <li>Performed 3D steady state thermal analyses using Ansys and MATLAB PDE Toolbox</li>
+      <li>Performed 3D steady state thermal analyses using ANSYS and MATLAB PDE Toolbox</li>
       <li>Detailed experimental setup and procedures, simulation techniques, and results in a professional report</li>
     </ul>
   </div>
@@ -226,13 +225,19 @@ Sean McGee, 2021
 
 <div class="flex-container">
   <div class="flex-item-left70">
-    <h3>Machine Design II Project</h3>
+    <h3>Machine Design II Project</h3><div class="project_link"><a href="https://github.com/smcgee8894/ME465_Winch">GitHub repository</a></div>
     <p class="subsub"><b>Project objectives: </b>Design a winch system which delivers 4,000 in·lbf of torque to the drum at a speed of 30-35 rpm. The project was split into three
-    sections (geartrain selection, shaft design, and bearing selection), each of which required a report with accompanying SOLIDWORKS models and calculations. A particular emphasis
-    was placed on simulating a real-world design scenario: there was not a "correct design" and performance requirements were vague and conflicting, which required students to make several
-    judgement calls about which aspects of performance were most critical.</p>
-    <p class="subsub"><b>Selected design: </b>Our calculations indicated that </p>
-    <p class="subsub"><b>Project outcomes: </b>Design a winch system which meets</p>
+      sections (geartrain selection, shaft design, and bearing selection), each of which required a report with accompanying SOLIDWORKS models and calculations. A particular emphasis
+      was placed on simulating a real-world design scenario: there was not a "correct design" and performance requirements were vague and conflicting, which required students to make several
+      judgement calls about which aspects of performance were most critical.</p>
+    <p class="subsub"><b>Selected design: </b>Our calculations indicated that delivering the required 4,000 in·lbf of torque at the lowest required speed of 30 rpm would require 1.9 hp before
+      accounting for losses, exceeding the 1.2 hp output from the prescribed motor. We reasoned that the torque output requirement was more critical than the speed requirement, and
+      designed the system accordingly using a larger gear ratio to produce the necessary reduction. We also iterated the design multiple times as constraints from one phase would require changes
+      to a prior design decision. Since the shaft was designed prior to selecting bearings, for instance, we discovered that our shaft exceeded the maximum angular deflection requirements for all
+      appropriate bearings requiring modifications to the shaft design. Our design ultimately used an 80:1 worm gear reduction, a shaft major diameter of 2.60", and flanged bronze bushings
+      supporting the shaft.</p>
+    <p class="subsub"><b>Project outcomes: </b>The final design meets stated requirements for torque output, factor of safety, reliability, and heat dissipation. The design only falls short of
+      the aforementioned output speed, operating instead at an output speed of around 15 rpm.</p>
     <p class="subsub"></p>
     <ul class="subsubsubsub">
       <li>Geartrain selection</li>
