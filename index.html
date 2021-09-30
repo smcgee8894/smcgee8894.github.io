@@ -18,9 +18,9 @@
 <div class="navbar">
   <ul class="topnav">
     <li class="nav_item"><a href="#home">Home</a></li>
+    <li class="nav_item"><a href="#about">About Me</a></li>
     <li class="nav_item"><a href="#education">Education</a></li>
     <li class="nav_item"><a href="#experience">Experience</a></li>
-    <li class="nav_item"><a href="#contact">Contact</a></li>
   </ul>
 </div>
 
@@ -28,7 +28,7 @@
 Sean McGee, 2021
 </div>
 
-<div class="flex-container" style="border-bottom: 1px solid black;">
+<div class="flex-container-outer" style="border-bottom: 0px solid black; margin-bottom: 0px; padding-bottom: 0px;">
   <div class="flex-item-left50">
     <div class="title_block">
       <div class="subtitle_text">
@@ -40,20 +40,41 @@ Sean McGee, 2021
   </div>
   <div class="flex-item-right50">
     <div class="portrait">
-      <img src="images/SeanMcGee_sq.jpg" alt="Portrait Photo" style="width: 200px; padding-top: 20px; padding-bottom: 20px;">
+      <img src="images/SeanMcGee_sq.jpg" alt="Portrait Photo" style="width: 200px; padding-top: 5px; padding-bottom: 5px;">
     </div>
     <!--<h2 id="contact" style="margin-bottom: 0px; padding-bottom: 0px;">Contact</h2>-->
     <div class="contact">
-      <p><a href="https://www.linkedin.com/in/sean-mcgee-55b00026/" target="_blank">LinkedIn Profile</a></p>
-      <p>Resume: <a href="files/LaplaceTransformPairs.pdf" target="_blank">Download</a></p>
-      <p>Email: abc123@xyz.com</p>
-      <p>Phone: (123) 456-7890</p>
+      <div class="contact_item"><a href="https://www.linkedin.com/in/sean-mcgee-55b00026/" target="_blank">LinkedIn Profile</a></div>
+      <div class="contact_item"><p><a href="https://github.com/smcgee8894" target="_blank">Github Profile</a></p></div>
+      <div class="contact_item"><p>Resume: <a href="files/LaplaceTransformPairs.pdf" target="_blank">Download</a></p></div>
+      <div class="contact_item"><p>Email: abc123@xyz.com</p></div>
+      <div class="contact_item"><p>Phone: (123) 456-7890</p></div>
     </div>
   </div>
 </div>
 
-<h2 id="education" style="margin-bottom: 0px; padding-bottom: 0px;">Education</h2>
-<div class="flex-container" style="margin-top: 0px; padding-top: 0px;">
+
+
+<div id="about" class="mid_space"></div>
+<h2 style="margin-bottom: 0px; padding-bottom: 0px;">About Me</h2>
+<div class="flex-container-outer" style="margin-top: 0px; padding-top: 0px;">
+  <div class="flex-item-left70">
+    <p class="subsub">Majoring in mechanical engineering with a minor in electrical engineering has given me the opportunity to design, analyze, and troubleshoot both mechanical
+    and electrical systems. In particular, I have a breadth of experience performing analysis and simulation using SOLIDWORKS and MATLAB/Simulink. I am skilled at programming
+    in MATLAB, C/C++, and Python. I also have experience working with control systems in S- and Z-domains, including lead and lag compensators, PID controllers, state space
+    representation, and linear quadratic regulators/estimators.</p>
+    <p class="subsub">My determination, analytical mindset, and passion for learning make will make me a valuable addition to any team. If you have any questions for me, please
+    feel free to reach out to me by email or via my LinkedIn profile. Thank you very much for your time.</p>
+  </div>
+  <div class="flex-item-right30">
+    <img src="images/NAU_Campus.jpg" alt="MATLAB Plot" style="margin-left: 4%; width: 90%;">
+    <p class="caption">Photo by <a href="https://commons.wikimedia.org/wiki/File:NAU_Campus.jpg" target="_blank">Joshbiggs</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank">CC BY-SA 4.0</a>, via Wikimedia Commons</p>
+  </div>
+</div>
+
+<div id="education" class="mid_space"></div>
+<h2 style="margin-bottom: 0px; padding-bottom: 0px;">Education</h2>
+<div class="flex-container-outer" style="margin-top: 0px; padding-top: 0px;">
   <div class="flex-item-left70">
     <h3 style="margin-top: 0px; padding-top: 0px;">Northern Arizona University</h3>
     <p class="subsub">Bachelor of Science in Mechanical Engineering, Minor in Electrical Engineering (ABET accredited)</p>
@@ -61,70 +82,118 @@ Sean McGee, 2021
     <p class="subsub" style="padding-bottom: 0px; margin-bottom: 0px;">Expected Graduation: December 2021</p>
     <div class="flex-container-courses" style="padding-bottom: 0px; margin-bottom: 0px; padding-top: 0px; margin-top: 0px;">
       <div class="flex-item-courses" style="padding-bottom: 0px; margin-bottom: 0px;">
-        <h4 class="courses" style="padding-bottom: 0px; margin-bottom: 0px;">Elective coursework:</h4>
+        <h4 class="courses" style="padding-bottom: 0px; margin-bottom: 0px;">Elective major coursework:</h4>
         <ul>
           <li><a href="https://catalog.nau.edu/Courses/course?courseId=012069" target="_blank">ME 465</a>: Machine Design II</li>
+          <ul class="subul">
+            <li class="subli">Design and analysis of geartrains, bearings, shafts, and belt/chain drives</li>
+          </ul>
           <li><a href="https://catalog.nau.edu/Courses/course?courseId=005401" target="_blank">ME 467</a> + <a href="https://catalog.nau.edu/Courses/course?courseId=009878" target="_blank">Lab</a>: Manufacturing Processes</li>
+          <ul class="subul">
+            <li class="subli">Applications, cost, and requirements of various manufacturing processes</li>
+            <li class="subli">Performing basic operations using vertical mill, lathe, and CNC</li>
+          </ul>
           <li><a href="https://catalog.nau.edu/Courses/course?courseId=005404" target="_blank">ME 484</a>: Kinematics</li>
+          <ul class="subul">
+            <li class="subli">Kinematic and kinetic analysis of 4, 5, and 6 bar linkages</li>
+            <li class="subli">Linkage design for paths, force, and velocity</li>
+          </ul>
         </ul>
       </div>
       <div class="flex-item-courses" style="padding-bottom: 0px; margin-bottom: 0px;">
         <h4 class="courses" style="padding-bottom: 0px; margin-bottom: 0px;">Minor coursework:</h4>
         <ul>
           <li><a href="https://catalog.nau.edu/Courses/course?courseId=001736" target="_blank">EE 110</a>: Introduction to Digital Logic</li>
+          <ul class="subul">
+            <li class="subli">Fundamentals of Boolean algebra, logic gates, and flip flops</li>
+          </ul>
           <li><a href="https://catalog.nau.edu/Courses/course?courseId=002340" target="_blank">EE 188</a>: Electrical Engineering I</li>
+          <ul class="subul">
+            <li class="subli">Design and analysis using resistors, inductors, capacitors, and op amps</li>
+          </ul>
           <li><a href="https://catalog.nau.edu/Courses/course?courseId=002343" target="_blank">EE 222</a>: Intermediate Programming</li>
+          <ul class="subul">
+            <li class="subli">Programming in C including functions, pointers, structs, input/output, algorithms, and applications</li>
+          </ul>
           <li><a href="https://catalog.nau.edu/Courses/course?courseId=002346" target="_blank">EE 280</a>: Introduction to Electronics</li>
+          <ul class="subul">
+            <li class="subli">Structure, operation, and applications of diodes and transistors</li>
+          </ul>
           <li><a href="https://catalog.nau.edu/Courses/course?courseId=002473" target="_blank">EE 325</a>: Engineering Analysis II</li>
+          <ul class="subul">
+            <li class="subli">Engineering applications of linear algebra, differential equations, Laplace transforms, and Fourier series</li>
+          </ul>
           <li><a href="http://catalog.nau.edu/Courses/course?courseId=002367&catalogYear=1718" target="_blank">EE 458</a>: Automatic Controls</li>
-
+          <ul class="subul">
+            <li class="subli">Control system design and analysis in S- and Z-domains, including block diagrams, lead/lag compensators, PID, and state space</li>
+            <li class="subli">System design, simulation, and tuning using MATLAB Control System Toolbox and Simulink</li>
+          </ul>
         </ul>
       </div>
     </div>
   </div>
   <div class="flex-item-right30">
     <img src="images/NAU_Campus.jpg" alt="MATLAB Plot" style="margin-left: 4%; width: 90%;">
-    <p style="text-align: center;">Photo by <a href="https://commons.wikimedia.org/wiki/File:NAU_Campus.jpg" target="_blank">Joshbiggs</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank">CC BY-SA 4.0</a>, via Wikimedia Commons</p>
+    <p class="caption">Photo by <a href="https://commons.wikimedia.org/wiki/File:NAU_Campus.jpg" target="_blank">Joshbiggs</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank">CC BY-SA 4.0</a>, via Wikimedia Commons</p>
   </div>
 </div>
 
-<h2 id="experience" style="margin-bottom: 0px; padding-bottom: 0px;">Experience</h2>
-<div class="flex-container" style="padding-top: 0px; margin-top: 0px;">
+<div id="experience" class="mid_space"></div>
+<h2 style="margin-bottom: 0px; padding-bottom: 0px;">Experience</h2>
+<div class="flex-container-outer" style="padding-top: 0px; margin-top: 0px;">
   <div class="flex-container">
     <div class="flex-item-left70">
       <h3>Senior Capstone Project</h3>
-    	<p class="subsub">Sevred as the Project Manager on a team of four students over the two-semester-long project sponsored by General Atomics EMS. The project objective was to design and manufacture a fixture to use during testing of satellites based on the CubeSat platform.</p>
+      <p class="subsub"><b>Project objectives: </b>Design a fixture to interface between a spherical air bearing and a satellite underoing testing. The fixture must allow the combined center of
+      mass (COM) of the fixture, the bearing, and the satellite to be precisely colocated with the bearing's center of rotation (COR), including satellites of various form factors.</p>
+      <p class="subsub"><b>Final design: </b>Our fixture uses satellite mounting brackets affixed to a system of movable carriages to change the satellite's position relative to the
+      air bearing. This permits the satellite's COM to be aligned with the bearing COR along two axes, while the repositioning of two weights allows alignment along the vertical axis.
+      The fixture is outfitted with sensors which identify the assembly's COM location, a microcontroller which computes the satellite and weight positions required to achieve colocation,
+      and motors which drive the translation of the carriages and weights to the appropriate locations.</p>
+      <p class="subsub"><b>Project outcomes: </b>While the project is ongoing, current prototypes inspire confidence in the current design.</p>
       <ul class="subsubsubsub">
+        <li>Project Manager: Leading team meetings, scheduling, managing completion of tasks and deliverables</li>
         <li>Developing and evaluating various system and subsystem design concepts using QFD, FMEA, and Pugh concept selection</li>
         <li>Generating parametric CAD models for system components, optimizing based on hand calculations, FEA results, and manufacturability</li>
-        <li>Created mechanical drawings using GD&T for accurate, reliable manufacturing</li>
-        <li>Tuning PID motor control algorithm using Simulink for fast and precise performance, validating expected performance using Simscape multibody dynamics simulation</li>
-        <li>Kept detailed notes throughout the design and testing of the device for teammates, client, and future reference</li>
+        <li>Creating detailed mechanical drawings using GD&T for accurate, reliable manufacturing</li>
+        <li>Designing motor control system using Simulink for fast yet precise performance, validating expected performance using Simscape multibody dynamics simulation</li>
+        <li>Using Raspberry Pi and Arduino to read inertial measurement unit (IMU) data for locating COM position</li>
+        <li>Keeping detailed notes throughout the design and testing of the device for teammates, client, and future reference</li>
         <li>Delivered high-quality reports and presentations to update client on project progress, results, and timeline</li>
       </ul>
     </div>
     <div class="flex-item-right30">
       <img src="images/Capstone_img1.jpg" alt="Capstone Render" style="margin-left: 19%; margin-top: 25px; width: 60%;">
-      <p>Rendering of the SOLIDWORKS assembly created for the fixture. Pocketing on the bottom face of the base plate allows the part to be lightweight yet stiff enough to resist deflection. Lead screws and linear rods permit translation in two axes with minimal friction.</p>
+      <p class="caption">Rendering of the SOLIDWORKS assembly created for the fixture. Pocketing on the bottom face of the base plate allows the part to be lightweight yet stiff to resist deflection.
+        Lead screws and linear rods permit translation in two axes with minimal friction.</p>
     </div>
   </div>
 
   <div class="flex-container">
     <div class="flex-item-left70">
       <h3>Heat Transfer Project</h3>
-    	<p class="subsub">Performed a 2D steady-state thermal analysis using numerical methods given prescribed initial conditions.</p>
-    	<p class="subsub">Phasellus rutrum mi sed mauris condimentum, a placerat diam tincidunt. Pellentesque tempus neque nec tortor blandit porta. Pellentesque aliquam ultrices congue. Morbi nec pretium nunc. Ut in urna nec turpis rhoncus tempus sit amet nec nulla. Quisque feugiat ante id diam commodo iaculis. Sed mi magna, molestie sed ultrices quis, porttitor in ex. Proin posuere nisi metus, lobortis tempus sem laoreet eget. Curabitur finibus malesuada orci, ut sodales leo blandit vehicula. Ut id justo lacus. Nam nec malesuada justo.</p>
-    	<p class="subsub"> Nulla imperdiet nibh ac gravida condimentum. Nulla id turpis et mi laoreet tincidunt. Fusce tristique porta euismod. Quisque aliquet purus quam, ut semper ipsum eleifend dictum. Sed orci arcu, aliquet at ex nec, lacinia hendrerit libero. Vestibulum ipsum mauris, egestas vitae purus vel, aliquam scelerisque justo. Cras et posuere lacus. Curabitur id mattis tortor. Aliquam suscipit orci sed luctus venenatis. Nam elit tortor, condimentum nec risus et, ultrices euismod leo. Praesent et diam tempus, elementum quam vitae, molestie nisl. Donec ornare dictum viverra. Vestibulum quam massa, convallis non euismod ut, tincidunt efficitur nulla. Duis tristique, nibh id suscipit pharetra, odio ligula scelerisque metus, a auctor arcu enim id nulla. Quisque in massa id leo laoreet viverra at sed sem. Vestibulum molestie erat vitae lacinia vehicula. Nulla consequat ligula magna, in maximus odio placerat vitae. Quisque vehicula facilisis libero, nec luctus turpis tempus id. Etiam porta mauris ut nisl congue, eget finibus diam ullamcorper. Proin consequat urna faucibus eros porta, eu pulvinar nisl aliquet. Duis volutpat sapien id nisi viverra, eget efficitur ex elementum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed finibus commodo posuere. Nam viverra dui nisl, finibus tincidunt justo viverra rutrum. Fusce nec leo efficitur risus feugiat aliquet. Vestibulum id tortor nec elit ultricies tristique in at justo.</p>
+      <p class="subsub"><b>Project objectives: </b>Calculate temperature distribution across 2D plate at steady state given prescribed boundary conditions, using MATLAB to compute results by numerical methods.</p>
+      <p class="subsub"><b>Final design: </b>The MATLAB script created for this project assigns a "type" to each finite element depending on the boundary conditions present on that element.
+      It then populates a coefficient matrix according to each element's type and solves the resulting system of equations for the temperature of each node.</p>
+      <p class="subsub"><b>Project outcomes: </b>The resulting 2D temperature distribution was displayed as a surface plot (shown right), while line plots were used to display the temperature
+      distribution along each external edge of the geometry. The generated surface plot qualitatively matches the verification plot provided by my instructor, and the calculated net heat flow
+      out of the geometry differs from the expected value by about (5⨯10^-18) percent.</p>
       <ul class="subsubsubsub">
-        <li>MATLAB script permits adjustment of finite-element size and allows for constant temperature, constant heat flux, and heat generation conditions</li>
-        <li>Script also produces 3D plot of temperature surface as well as 2D plots of temperature profiles along perimeter</li>
-        <li>Delivered report detailing equation derivations, pseudocode, results, and error calculations</li>
+        <li>Derived nodal equations from 2D heat equation</li>
+        <li>Numerically computed temperature distribution using MATLAB script, including:</li>
+        <ul class = "subsub">
+          <li>User-defined finite element size</li>
+          <li>Constant temperature, constant heat flux, and heat generation boundary conditions</li>
+          <li>Resulting temperature distribution visualization as surface plot and line plots</li>
+        </ul>
+        <li>Validated results and calculated error from expected values</li>
+        <li>Summarized analysis, approach, results, and conclusions in final report deliverable.</li>
       </ul>
 
     </div>
     <div class="flex-item-right30">
-      <img src="images/2D_HeatDist_labels.jpg" alt="MATLAB Plot" style="margin-left: 100px; margin-top: 25px; width: 60%;">
-      <p>Resulting temperature distribution. The shaded region on the X-Y plane illustrates the surface of interest, while the vertical rectangular column illustrates the region of heat generation.</p>
+      <img src="images/2D_HeatDist_labels.jpg" alt="MATLAB Plot" style="margin-left: 80px; margin-top: 25px; width: 70%;">
+      <p class="caption">Resulting temperature distribution using 20⨯40 elements. The shaded region on the X-Y plane illustrates the surface of interest, while the vertical rectangular column illustrates the region of heat generation.</p>
     </div>
   </div>
 </div>
@@ -132,7 +201,10 @@ Sean McGee, 2021
 <div class="flex-container">
   <div class="flex-item-left70">
     <h3>Experimental Methods Project</h3>
-    <p class="subsub">The goal of this project was to design and carry out a scientific experiment using the equipment available in NAU's thermal fluids laboratory. My proposal involved measuring the temperature profile of a heat sink placed on a hot plate after reaching steady-state conditions. Twelve K-type thermocouples were calibrated and installed along various surfaces of the heat sink, whereupon temperature data was captured and stored. Experimental results were then compared to results from MATLAB and Ansys simulations. Both simulations delivered results within ±5°C of the experimental results.</p>
+    <p class="subsub">The goal of this project was to design and carry out a scientific experiment using the equipment available in NAU's thermal fluids laboratory.
+      My proposal involved measuring the temperature profile of a heat sink placed on a hot plate. Twelve K-type thermocouples were calibrated and installed along various
+      surfaces of the heat sink which was then heated and allowed to reach steady-state conditions, whereupon temperature data was captured and stored. Experimental results
+      were then compared to results from MATLAB and Ansys simulations. Both simulations delivered results within ±5°C of the experimental results.</p>
     <p class="subsub"></p>
     <ul class="subsubsubsub">
       <li>Designed experimental procedures to minimize impact of external factors such as forced convection</li>
@@ -144,11 +216,51 @@ Sean McGee, 2021
   </div>
   <div class="flex-item-right30">
     <img src="images/MATLAB_Heatsink.jpg" alt="Convection coefficient isosurface plot" style="margin-left: 50px; margin-top: 25px; width: 80%;">
-    <p>Plot from MATLAB PDE Toolbox simulation illustrating isosurfaces of the convection coefficient <i>h</i>.</p>
+    <p class="caption">Plot from MATLAB PDE Toolbox simulation illustrating isosurfaces of the convection coefficient <i>h</i>.</p>
+    <!--
     <img src="images/MATLAB_Heatsink_tdist.jpg" alt="Heat sink temperature distribution plot" style="margin-left: 50px; margin-top: 25px; width: 80%;">
     <p>Resulting temperature distribution from MATLAB simulation.</p>
+    -->
   </div>
 </div>
+
+<div class="flex-container">
+  <div class="flex-item-left70">
+    <h3>Machine Design II Project</h3>
+    <p class="subsub"><b>Project objectives: </b>Design a winch system which delivers 4,000 in·lbf of torque to the drum at a speed of 30-35 rpm. The project was split into three
+    sections (geartrain selection, shaft design, and bearing selection), each of which required a report with accompanying SOLIDWORKS models and calculations. A particular emphasis
+    was placed on simulating a real-world design scenario: there was not a "correct design" and performance requirements were vague and conflicting, which required students to make several
+    judgement calls about which aspects of performance were most critical.</p>
+    <p class="subsub"><b>Selected design: </b>Our calculations indicated that </p>
+    <p class="subsub"><b>Project outcomes: </b>Design a winch system which meets</p>
+    <p class="subsub"></p>
+    <ul class="subsubsubsub">
+      <li>Geartrain selection</li>
+      <ul>
+        <li>Delivers required power output, speed reduction</li>
+        <li>Maintains self-locking behavior</li>
+        <li>Exhibits sufficient tooth strength, deflection, and fatigue strength</li>
+      </ul>
+      <li>Bearing selection</li>
+      <ul>
+        <li>Exceeds static and dynamic load requirements</li>
+        <li>Reduces wear and cost of maintenance</li>
+        <li>Maximizes efficiency to maintain required power output</li>
+      </ul>
+      <li>Shaft Design</li>
+      <ul>
+        <li>Features locating features for gears, bearings</li>
+        <li>Reduces angular deflection to levels allowable by bearings, gear mesh</li>
+        <li>Sufficient bending and torsional strength, and operates within the material's endurance limit</li>
+      </ul>
+    </ul>
+  </div>
+  <div class="flex-item-right30">
+    <img src="images/Winch.jpg" alt="Heat sink temperature distribution plot" style="margin-left: 70px; margin-top: 25px; width: 60%;">
+    <p class="caption">Rendering of SOLIDWORKS assembly for final winch design. Some elements are rendered as transparent to better illustrate the design.</p>
+  </div>
+</div>
+
 </div>
 
 

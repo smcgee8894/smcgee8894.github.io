@@ -2,12 +2,26 @@ body {
 	font-family: "Poppins", "Arial", sans-serif;
 }
 
+h2 {
+	display: block;
+	height: 50px;
+	margin-top: 25px;
+	margin-left: 50px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	margin-left: 10px;
+	padding-left: 10px;
+
+	border-top: 1px solid gray;
+	border-left: 1px solid gray;
+}
+
 h1, h2, h3 {
 	font-family: "Merriweather", "Georgia", serif;
 }
 
 h3 {
-	padding-left: 25px;
+	padding-left: 25px;;
 }
 
 .subsub {
@@ -19,10 +33,29 @@ h3 {
 .subsubsubsub {
 	padding-left: 100px;
 }
+.subul {
+	padding-left: 20px;
+	margin-bottom: 10px;
+	margin-top: 3px;
+}
+.subli {
+	font-size: 10pt;
+}
+
+.flex-container-outer {
+  display: flex;
+  flex-wrap: wrap;
+	margin-top: 20px;
+	/*
+	border: 1px solid red;
+	*/
+}
 
 .flex-container {
   display: flex;
   flex-wrap: wrap;
+	/*border: 1px solid gray;*/
+	padding: 10px;
 	/*
 	border: 1px solid red;
 	*/
@@ -55,7 +88,7 @@ h3 {
   flex: 60%;
 	margin: 10px;
 	padding: 10px;
-	border-right: 1px solid gray;
+	border-right: 1px solid rgba(220, 220, 220, 1);
 	/*
 	background-color: rgba(220, 220, 220, 1);
 	*/
@@ -77,6 +110,7 @@ h3 {
 .flex-item-left50{
   flex: 49%;
 	text-align: right;
+	padding: 0px;
 	/*
 	border: 1px dashed green;
 	*/
@@ -86,6 +120,8 @@ h3 {
 .flex-item-right50 {
 	flex: 49%;
 	text-align: left;
+	padding: 0px;
+	height:
 	/*
 	border: 1px dashed green;
 	*/
@@ -96,28 +132,6 @@ h3 {
 	text-align: left;
 	/*
 	border: 1px dashed brown;
-	*/
-}
-
-.contact {
-  display: inline-block;
-	margin: 0px;
-	padding: 0px;
-	position: relative;
-	bottom: 50px;
-	/*
-	border: 1px dashed green;
-	background-color: rgba(200, 200, 250, 1);
-	*/
-}
-
-.portrait {
-  display: inline-block;
-	margin: 10px;
-	padding: 10px;
-	/*
-	border: 1px dashed green;
-	background-color: rgba(200, 200, 250, 1);
 	*/
 }
 
@@ -154,7 +168,7 @@ h3 {
 .title_block {
 	display: inline-block;
 	width: 50%;
-	margin-top: 50px;
+	padding-top: 30px;
 }
 
 .title {
@@ -170,13 +184,14 @@ h3 {
 	font-size: 36pt;
 	padding: 10px;
 	margin: 0px;
+	padding-top: 10px;
 }
 
 .subtitle_text {
 	text-align: center;
 	font-family: "Merriweather", sans-serif;
 	margin: auto;
-	padding-top: 20px;
+	padding-top: 40px;
 }
 
 .navbar {
@@ -224,6 +239,49 @@ ul.topnav li.right {
 	*/
 }
 
+.mid_space {
+	height: 1px;
+	position: relative;
+	top: -50px;
+	/*
+	border: 2px solid yellow;
+	*/
+}
+
 p {
 	font-size: 12pt;
+}
+
+.caption {
+	font-size: 10pt;
+	font-style: italic;
+	text-align: center;
+}
+
+.portrait {
+  display: inline-block;
+	margin: 5px;
+	padding: 5px;
+	/*
+	border: 1px dashed green;
+	background-color: rgba(200, 200, 250, 1);
+	*/
+}
+
+.contact {
+  display: inline-block;
+	margin: 0px;
+	padding: 0px;
+	padding-left: 15px;
+	position: relative;
+	bottom: 40px;
+	/*
+	border: 1px dashed green;
+	background-color: rgba(200, 200, 250, 1);
+	*/
+}
+
+.contact_item {
+	padding: -10px;
+	margin: -10px;
 }
