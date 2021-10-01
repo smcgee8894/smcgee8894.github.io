@@ -330,4 +330,7 @@ p {
 	.contact {
 		bottom: 0px;
 	}
+	.sidebar-image {
+		width: 70%;
+	}
 }
