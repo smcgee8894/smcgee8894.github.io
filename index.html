@@ -139,29 +139,30 @@ Sean McGee, 2021
 <div class="flex-container-outer" style="padding-top: 0px; margin-top: 0px;">
   <div class="flex-container">
     <div class="flex-item-left70">
-      <h3>Senior Capstone Project</h3>
+      <h3>Senior Capstone Project - Sponsored by General Atomics EMS</h3><div class="project_link"><a href="https://www.ceias.nau.edu/capstone/projects/ME/2021/21Spr01_GA/">Project website</a></div>
       <p class="subsub"><b>Project objectives: </b>Design a fixture to interface between a spherical air bearing and a satellite undergoing testing. The fixture must allow the combined center of
       mass (COM) of the fixture, the bearing, and the satellite to be precisely colocated with the bearing's center of rotation (COR), including satellites of various form factors.</p>
       <p class="subsub"><b>Final design: </b>Our fixture uses satellite mounting brackets affixed to a system of movable carriages to change the satellite's position relative to the
       air bearing. This permits the satellite's COM to be aligned with the bearing COR along two axes, while the repositioning of two weights allows alignment along the vertical axis.
-      The fixture is outfitted with sensors which identify the assembly's COM location, a microcontroller which computes the satellite and weight positions required to achieve colocation,
-      and motors which drive the translation of the carriages and weights to the appropriate locations.</p>
-      <p class="subsub"><b>Project outcomes: </b>While the project is ongoing, current prototypes inspire confidence in the current design.</p>
+      The fixture is outfitted with an IMU to identify current fixture angle and a microcontroller which drives stepper motors to adjust translation of the carriages and weights to the appropriate locations.</p>
+      <p class="subsub"><b>Project outcomes: </b>Testing procedures indicated that the final design falls just short of the Y-axis COM adjustment requirement, but meets all other engineering requirements including
+      X- and Z-axis adjustment, reducing mass and moment of inertia, satellite retention, and short setup time.</p>
       <ul class="subsubsubsub">
-        <li>Project Manager: Leading team meetings, scheduling, managing completion of tasks and deliverables</li>
-        <li>Developing and evaluating various system and subsystem design concepts using QFD, FMEA, and Pugh concept selection</li>
-        <li>Generating parametric CAD models for system components, optimizing based on hand calculations, FEA results, and manufacturability</li>
-        <li>Creating detailed mechanical drawings using GD&T for accurate, reliable manufacturing</li>
-        <li>Designing motor control system using Simulink for fast yet precise performance, validating expected performance using Simscape multibody dynamics simulation</li>
-        <li>Using Raspberry Pi and Arduino to read inertial measurement unit (IMU) data for locating COM position</li>
-        <li>Keeping detailed notes throughout the design and testing of the device for teammates, client, and future reference</li>
+        <li>Project Manager: Lead team meetings, scheduling, managing completion of tasks and deliverables</li>
+        <li>Developed and evaluated various system and subsystem design concepts using requirements matrix and FMEA</li>
+        <li>Performed PDR and CDR with client to verify design is capable of meeting requirements</li>
+        <li>Generated parametric CAD models for system components, optimized based on hand calculations, FEA results, and manufacturability</li>
+        <li>Created detailed mechanical drawings using GD&T for accurate, reliable manufacturing</li>
+        <li>Designed motor control system using Simulink for fast yet precise performance, validated expected performance using Simscape multibody dynamics simulation</li>
+        <li>Used Raspberry Pi and Arduino to read inertial measurement unit (IMU) data for locating COM position</li>
+        <li>Designed testing procedures to validate requirements and inform design revisions</li>
+        <li>Kept detailed notes throughout the design and testing of the device for teammates, client, and future work</li>
         <li>Delivered high-quality reports and presentations to update client on project progress, results, and timeline</li>
       </ul>
     </div>
     <div class="flex-item-right30">
-      <img src="images/Capstone_img1.jpg" alt="Capstone Render" class="sidebar-image">
-      <p class="caption">Rendering of the SOLIDWORKS assembly created for the fixture. Pocketing on the bottom face of the base plate allows the part to be lightweight yet stiff to resist deflection.
-        Lead screws and linear rods permit translation with minimal friction.</p>
+      <img src="images/FinalRender.jpg" alt="Capstone Render" class="sidebar-image">
+      <p class="caption">Rendering of the SOLIDWORKS assembly created for the fixture, including modular test satellite and simulated bearing stand.</p>
 
       <img src="images/Capstone.jpg" alt="Capstone Team" class="sidebar-image">
       <p class="caption">Capstone team presenting final design to General Atomics EMS on 12/15/2021</p>
@@ -177,7 +178,7 @@ Sean McGee, 2021
       It then populates a coefficient matrix according to each element's type and solves the resulting system of equations for the temperature of each node.</p>
       <p class="subsub"><b>Project outcomes: </b>The resulting 2D temperature distribution was displayed as a surface plot (shown right), while line plots were used to display the temperature
       distribution along each external edge of the geometry. The generated surface plot qualitatively matches the verification plot provided by my instructor, and the calculated net heat flow
-      out of the geometry differs from the expected value by about (5⨯10^-18) percent.</p>
+      out of the geometry differs from the expected value by about 5e-18 percent.</p>
       <ul class="subsubsubsub">
         <li>Derived nodal equations from 2D heat equation</li>
         <li>Numerically computed temperature distribution using MATLAB script, including:</li>
